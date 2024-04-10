@@ -30,6 +30,7 @@ function ProjectForm({btnText}){
             </div>
             <div>
                 <Select name="category_id" text="Selecione a categoria" options={(categories)}></Select>
+                <h1>Oi</h1>
             </div>
             <div>
                 <SubmitButton text={btnText}></SubmitButton>
